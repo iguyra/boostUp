@@ -1,0 +1,87 @@
+.Benefits {
+  background: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-secondary-light
+  );
+  &__container {
+    padding-top: 10rem;
+  }
+}
+
+.benefitBox {
+  position: relative;
+  background: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-secondary-light
+  );
+  padding: 2rem 0;
+  //   margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+
+  &.one {
+    background: linear-gradient(
+      to right,
+      $color-primary,
+      $color-secondary-light
+    );
+  }
+
+  &.two {
+    background: linear-gradient(
+      to right,
+      $color-primary,
+      $color-secondary-light
+    );
+  }
+
+  &__container {
+    // background-color: $color-secondary-light;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: linear-gradient(
+      to right,
+      $color-primary,
+      $color-secondary-light
+    );
+    border-bottom-right-radius: 50%;
+  }
+
+  &__bigHeading {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    line-height: 2.2rem;
+    color: $color-white;
+
+    &.black {
+      //   color: $color-black;
+    }
+  }
+  &__smallHeading {
+    font-size: 1.3rem;
+    color: $color-white-light;
+    line-height: 2.2rem;
+
+    &.black {
+      //   color: $color-black;
+    }
+  }
+
+  &__absolute {
+    position: absolute;
+    top: 1rem;
+    right: 5%;
+    font-size: 2rem;
+    opacity: 0.2;
+    // z-index: -999;
+  }
+}
+
+.why {
+  padding-top: 4rem;
+  background-color: $color-primary-light;
+}

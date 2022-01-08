@@ -1,0 +1,67 @@
+.save {
+  // margin-top: 10rem;
+  padding: 1rem;
+  background: linear-gradient(
+    to bottom,
+    $color-primary,
+    $color-secondary-light
+  );
+  padding-top: 6rem;
+  position: relative;
+
+  &__gradient {
+    padding: 1rem;
+    padding-top: 6rem;
+    border-top-left-radius: 50%;
+
+    background: linear-gradient(
+      to bottom,
+      $color-primary,
+      rgba(44, 34, 34, 0.57)
+    );
+  }
+
+  &__heading {
+    font-size: 2.5rem;
+    color: $color-white;
+    font-weight: 900;
+  }
+
+  &__list {
+    margin-top: 1rem;
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  &__bottom {
+    margin-left: 1rem;
+  }
+
+  &__bigNumber {
+    font-size: 1.6rem;
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    background: linear-gradient(to bottom, $color-white, $color-primary-light);
+  }
+
+  &__itemHeading {
+    color: red;
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+
+  &__itemWords {
+    color: $color-white;
+
+    font-size: 1.3rem;
+    color: rgba(204, 204, 204, 0.933);
+    line-height: 2.2rem;
+  }
+}

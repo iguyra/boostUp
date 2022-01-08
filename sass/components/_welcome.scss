@@ -1,0 +1,22 @@
+.welcome {
+  background-color: $color-primary;
+  // line-height: 3.2rem;
+  padding: 3rem 0;
+  border-top-left-radius: 70%;
+  // border-top-right-radius: 1rem;
+  margin-top: -2rem;
+  z-index: 999;
+  position: relative;
+  border: 0.3rem solid $color-ascent;
+
+  &__to {
+    font-size: 3rem;
+    color: $color-white;
+    font-family: "Roboto", sans-serif;
+
+    font-weight: 900;
+    margin-bottom: 2rem;
+    text-align: center;
+    // line-height: 4.3rem;
+  }
+}

@@ -1,0 +1,30 @@
+.package {
+  background-color: $color-secondary-light;
+
+  &__summary {
+    background-color: #fff;
+  }
+
+  &__container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    font-size: 1.6rem;
+  }
+
+  &__list {
+    margin-top: 1rem;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    span {
+      font-size: 1.3rem;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.slides {
+  height: 80vh;
+  // width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(36, 36, 34, 0.789),
+      $color-secondary-light
+    ),
+    url("/static/hero.jpg");
+  background-size: cover;
+  position: relative;
+
+  &__container {
+    // padding-top: 10rem;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 2.2rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+
+  &__bigHeader {
+    font-size: 3rem;
+    color: $color-white;
+    font-weight: 900;
+    line-height: 3.5rem;
+  }
+  &__smallHeader {
+    font-size: 1.6rem;
+    color: $color-white;
+    margin: 1rem 0;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+}
+
+.fadeInUp {
+  animation: fadeInUp 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  60% {
+    opacity: 0.6;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}

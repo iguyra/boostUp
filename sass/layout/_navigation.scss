@@ -1,0 +1,36 @@
+.navigation {
+  // display: none;
+  background-color: #fff;
+  position: absolute;
+  z-index: 9999;
+  right: 10%;
+  // display: none;
+  transform: translateY(-200%);
+  transition: all 0.35s;
+  box-shadow: 0 0.5rem 1rem #ccc;
+
+  &__list {
+    background-color: #ffffff;
+  }
+
+  &__item {
+    background-color: $color-secondary;
+    padding: 2rem;
+    margin-bottom: 0.2rem;
+
+    a {
+      color: $color-white;
+      font-size: 1.4rem;
+      text-decoration: none;
+    }
+  }
+}
+
+.navigation.on {
+  transition: all 0.35s;
+  // transform: translateX(100%);
+  display: block;
+  transform: translateY(0);
+
+  // opacity: 0;
+}
