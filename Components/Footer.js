@@ -12,8 +12,8 @@ const Footer = () => {
             <a href="/login">Login</a>
           </div>
 
-          <div className="footer__item--list">
-            <a href="/start">start</a>
+          <div className="footer__item--list start">
+            <a href="/start">JOIN NOW</a>
           </div>
         </div>
 

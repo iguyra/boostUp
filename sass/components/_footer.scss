@@ -25,6 +25,11 @@
       font-size: 1.4rem;
       padding: 2rem;
 
+      &.start {
+        background-color: $color-secondary;
+        border: 1px solid $color-ascent;
+      }
+
       a {
         color: $color-white;
         text-decoration: none;
