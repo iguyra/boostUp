@@ -1,0 +1,27 @@
+.header {
+  background-color: $color-primary;
+  height: 10rem;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+
+  &__container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    font-size: 1.6rem;
+    color: red;
+  }
+
+  &__name {
+    color: $color-white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}

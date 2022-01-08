@@ -1,0 +1,88 @@
+.profile {
+  background-color: $color-primary;
+  color: aliceblue;
+  margin-top: 8rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  &__profileIcon {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    color: $color-primary;
+    // margin-bottom: 1rem;
+  }
+
+  &__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &__details {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: $color-secondary-light;
+    position: relative;
+    align-items: center;
+
+    &::after {
+      background: linear-gradient(to right, red, yellow, green);
+      position: absolute;
+      content: "";
+      height: 4px;
+      right: 0;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  &__list {
+    background-color: rgba(25, 80, 151, 0.59);
+    padding: 1rem;
+  }
+
+  &__item {
+    margin-bottom: 1rem;
+    padding: 2rem;
+    display: flex;
+    background-color: $color-primary-light;
+  }
+
+  &__listIcon {
+    width: 70%;
+  }
+
+  &__left {
+    font-size: 1.4rem;
+
+    a {
+      color: $color-white;
+      text-decoration: none;
+    }
+  }
+}
+
+.profile {
+  &__account {
+    margin-top: -2rem;
+
+    &--list {
+      width: 85%;
+      background-color: $color-secondary-light;
+      margin: 0 auto;
+    }
+    &--item {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      background-color: $color-primary-light;
+    }
+  }
+}

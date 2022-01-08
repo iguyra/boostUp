@@ -1,0 +1,75 @@
+.callToAction {
+  background: linear-gradient(to right, $color-ascent, $color-ascent-light);
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.1);
+  transition: width 2s linear 1s;
+  background: linear-gradient(
+    to right,
+    #e43834,
+    #e43834,
+    #f29323,
+    #f29323,
+    #f29323
+  );
+
+  &__now {
+    color: $color-white;
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+}
+
+.shake {
+  animation: 3s infinite alternate shake;
+  transition: all 2s linear 1s;
+}
+
+.shake1 {
+  animation: 3s infinite alternate shake1;
+  transition: all 2s linear 1s;
+}
+
+@keyframes shake1 {
+  0% {
+    transform: translateY(-1rem);
+  }
+
+  100% {
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes shake {
+  0% {
+    background: linear-gradient(
+      to right,
+      #f29323,
+      #f29323,
+      #f29323,
+      #e43834,
+      #e43834
+    );
+  }
+  60% {
+    background: linear-gradient(
+      to right,
+      #e43834,
+      #f29323,
+      #e43834,
+      #f29323,
+      #f29323
+    );
+  }
+  100% {
+    background: linear-gradient(
+      to right,
+      #f29323,
+      #e43834,
+      #e43834,
+      #f29323,
+      #f29323
+    );
+  }
+}

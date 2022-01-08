@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    background-color: $color-secondary-light;
+    padding: 2rem 0;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+  }
+
+  &__formgroup {
+    padding: 1rem 2.5rem;
+  }
+
+  &__input {
+    padding: 1rem;
+  }
+
+  &__label {
+    font-size: 1.6rem;
+    color: $color-white;
+    text-transform: capitalize;
+  }
+
+  &__button {
+    padding: 1rem;
+    width: 100%;
+    background-color: #f48321;
+    color: $color-white;
+    border-style: none;
+    font-size: 1.8rem;
+  }
+}

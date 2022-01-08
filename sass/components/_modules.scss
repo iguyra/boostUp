@@ -1,0 +1,19 @@
+.IconImage {
+  img {
+    width: 100%;
+  }
+}
+
+.site {
+  text-align: center;
+  padding-bottom: 2rem;
+  &__name {
+    font-size: 3rem;
+    color: $color-white;
+    font-weight: bold;
+  }
+}
+
+.paddingTop {
+  padding-top: 10rem;
+}

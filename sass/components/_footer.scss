@@ -1,0 +1,29 @@
+.footer {
+  background-color: $color-primary;
+  text-align: center;
+
+  &__item {
+    padding-top: 5rem;
+    &--title {
+      color: $color-primary;
+      font-size: 1.6rem;
+      padding: 1rem;
+    }
+    &--list {
+      padding: 0.5rem;
+      color: $color-white;
+      background-color: $color-secondary-light;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+
+      a {
+        color: $color-white;
+      }
+
+      &.now {
+        background-color: $color-ascent;
+        color: $color-primary;
+      }
+    }
+  }
+}
