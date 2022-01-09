@@ -1,9 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
 
-const CallToAction = () => {
+const CallToAction = ({}) => {
   return (
     <section className="callToAction shake shake1">
-      <div className="callToAction__now">Join Now</div>
+      <div className="callToAction__now">
+        <a href="/start">START NOW</a>
+      </div>
     </section>
   );
 };
