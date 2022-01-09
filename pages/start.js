@@ -4,7 +4,9 @@ export default function signup() {
   return (
     <div className="login">
       <div className="site">
-        <div className="site__name">letsLearn</div>
+        <div className="site__name">
+          <span>b</span>oostUp
+        </div>
         <div className="benefitBox__smallHeading">GET STARTED</div>
       </div>
 

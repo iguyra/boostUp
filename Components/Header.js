@@ -13,7 +13,9 @@ const Heading = () => {
   return (
     <section className="header">
       <div className="header__container">
-        <div className="header__name">letsLearn</div>
+        <div className="header__name">
+          <span>boostUp</span>
+        </div>
         <div onClick={openMenu} className="header__menu">
           <i class="fas fa-bars"></i>
 
