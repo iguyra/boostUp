@@ -1,0 +1,22 @@
+.terms {
+  &__container {
+    padding: 0.5rem;
+
+    padding-top: 10rem;
+    width: 96%;
+    margin: 0 auto;
+    box-shadow: 0 0 1rem $color-secondary-light;
+  }
+  &__heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgb(55, 226, 248);
+    text-align: center;
+  }
+
+  &__paragraph {
+    margin-bottom: 1rem;
+    color: #ccc;
+    font-size: 1.3rem;
+  }
+}

@@ -12,10 +12,10 @@ const Navigation = ({ menuActive, openMenu }) => {
             <a href="/login">Login</a>
           </div>
           <div className="navigation__item">
-            <a href="/">About us</a>
+            <a href="/aboutus">About us</a>
           </div>
           <div className="navigation__item">
-            <a href="/">Contact us</a>
+            <a href="/contact">Contact us</a>
           </div>
 
           <CallToAction />

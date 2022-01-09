@@ -20,11 +20,11 @@ const Footer = () => {
         <div className="footer__item">
           <div className="footer__heading">HELP</div>
           <div className="footer__item--list">
-            <a href="/login">About us</a>
+            <a href="/aboutus">About us</a>
           </div>
 
           <div className="footer__item--list">
-            <a href="/login">Terms and Services</a>
+            <a href="/termsofuse">Terms and Services</a>
           </div>
 
           {/* <div className="footer__item--list">Profile</div> */}

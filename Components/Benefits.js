@@ -1,15 +1,14 @@
 import React, { useContext, useEffect, useState } from "react";
 import CallToAction from "./Buttons/CallToAction";
 import AbsoluteSvg from "./Modules/AbsoluteSvg";
+import IconImage from "./Modules/IconImage";
 
 const Benefits = () => {
   return (
     <section className="Benefits">
       <div className="Benefits__container">
         <div data-aos="fade-up" className="benefitBox">
-          <div className="IconImage">
-            <img data-aos="fade-up" src="/static/hero.jpg" alt="" />
-          </div>
+          <IconImage />
           <div className="benefitBox__container">
             <div className="benefitBox__bigHeading">
               Now is your moment to build a better tomorrow
