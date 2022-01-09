@@ -30,15 +30,20 @@
 
   &__name {
     color: $color-white;
-    font-size: 3rem;
     font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
     padding: 1rem;
     background-color: $color-secondary-light;
     border-radius: 50%;
     color: $color-white;
     font-weight: bold;
     border: 2px solid $color-secondary;
+
+    a {
+      font-size: 3rem;
+      font-family: "Josefin Sans", sans-serif;
+      text-decoration: none;
+      color: #ccc;
+    }
 
     span {
       color: #ccc;

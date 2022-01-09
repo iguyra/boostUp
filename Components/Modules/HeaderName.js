@@ -1,7 +1,9 @@
 const HeaderName = () => {
   return (
     <div className="header__name">
-      boost<span>Up</span>
+      <a href="/">
+        boost<span>Up</span>
+      </a>
     </div>
   );
 };
