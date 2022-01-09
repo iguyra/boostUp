@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/aboutus.js"
     ],
-    "/termsofuse": [
+    "/start": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/termsofuse.js"
+      "static/chunks/pages/start.js"
     ]
   },
   "ampFirstPages": []
