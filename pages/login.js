@@ -2,7 +2,11 @@ import AuthFormInput from "../Components/Forms/AuthFormInput";
 import router from "next/router";
 
 export default function Login() {
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log("eeeeeee");
+
     router.push("/profile");
   };
 
@@ -15,11 +19,11 @@ export default function Login() {
 
       <form className="form">
         <div className="form__container">
-          <AuthFormInput value="red" label={"email"} />
-          <AuthFormInput value="red" label={"password"} />
+          <AuthFormInput value="admin" label={"email"} />
+          <AuthFormInput value="admin" label={"password"} />
         </div>
 
-        <button onSubmit={handleSubmit} className="form__button">
+        <button onClick={(e) => handleSubmit(e)} className="form__button">
           Login
         </button>
       </form>
