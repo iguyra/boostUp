@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
 .header {
   background-color: $color-primary;
   height: 10rem;
@@ -29,16 +30,19 @@
 
   &__name {
     color: $color-white;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 1rem;
+    background-color: $color-secondary-light;
+    border-radius: 50%;
+    color: $color-white;
+    font-weight: bold;
+    border: 2px solid $color-secondary;
 
     span {
-      padding: 1rem;
-      background-color: $color-secondary-light;
-      border-radius: 50%;
-      color: $color-white;
-      font-weight: bold;
-      border: 2px solid $color-secondary;
+      color: #ccc;
+      font-family: "Roboto", sans-serif;
     }
   }
 }

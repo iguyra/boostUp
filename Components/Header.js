@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Link from "next/link";
 import Navigation from "../Components/Navigation";
+import HeaderName from "./Modules/HeaderName";
 
 const Heading = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -13,9 +14,8 @@ const Heading = () => {
   return (
     <section className="header">
       <div className="header__container">
-        <div className="header__name">
-          <span>boostUp</span>
-        </div>
+        <HeaderName />
+
         <div onClick={openMenu} className="header__menu">
           <i class="fas fa-bars"></i>
 
