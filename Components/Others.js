@@ -1,14 +1,17 @@
 import React, { useContext, useEffect, useState } from "react";
 import CallToAction from "./Buttons/CallToAction";
 import AbsoluteSvg from "./Modules/AbsoluteSvg";
+import Welcome from "./Welcome";
 
-const Benefits = () => {
+const Others = () => {
   return (
     <section className="save">
       <AbsoluteSvg />
       <div className="save__gradient">
         <div className="save__container">
           <div className="col">
+            <Welcome />
+
             <div className="">
               <div data-aos="fade-up" className="save__heading">
                 Expand, Build and BoostUp your knowledge about the Job market
@@ -62,14 +65,14 @@ const Benefits = () => {
               </div>
             </div>
 
-            <div className="IconImage">
+            {/* <div className="IconImage">
               <img
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-center"
                 src="/static/t.png"
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -79,4 +82,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default Others;

@@ -9,6 +9,10 @@
   position: relative;
   border: 0.3rem solid $color-ascent;
 
+  @media only screen and (min-width: $bp-medium) {
+    padding: 20%;
+  }
+
   &__to {
     font-size: 3rem;
     color: $color-white;

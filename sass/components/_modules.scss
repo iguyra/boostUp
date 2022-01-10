@@ -27,3 +27,12 @@ textarea {
   width: 100%;
   height: 10rem;
 }
+
+.col {
+  @media only screen and (min-width: $bp-medium) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}

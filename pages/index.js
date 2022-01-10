@@ -9,6 +9,7 @@ import Save from "../Components/Save";
 
 import Footer from "../Components/Footer";
 import Layout from "../Components/Layout";
+import Others from "../Components/Others";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
         {/* <Why /> */}
         <Benefits />
 
-        <Welcome />
+        {/* <Welcome /> */}
+        <Others />
         <Footer />
       </div>
     </Layout>
