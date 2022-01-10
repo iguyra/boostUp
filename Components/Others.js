@@ -7,12 +7,12 @@ const Others = () => {
   return (
     <section className="save">
       <AbsoluteSvg />
-      <div className="save__gradient">
+      <div className="save__gradient others">
         <div className="save__container">
           <div className="col">
             <Welcome />
 
-            <div className="">
+            <div className="save__bottom">
               <div data-aos="fade-up" className="save__heading">
                 Expand, Build and BoostUp your knowledge about the Job market
               </div>

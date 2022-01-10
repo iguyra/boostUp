@@ -3,7 +3,7 @@ import CallToAction from "./Buttons/CallToAction";
 
 const Welcome = ({ image, heading }) => {
   return (
-    <section className="welcome">
+    <section className="welcome others">
       <div className="benefitBox__container">
         <div className="welcome__to">
           {heading || "Welcome To Where The Future Works"}

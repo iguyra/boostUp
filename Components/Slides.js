@@ -22,8 +22,6 @@ const Slides = () => {
       : "slides__imageContainer fade"
   }`;
 
-  console.log(imgLoaded, "loadedloaded");
-
   return (
     <section className="slides">
       <div className="slides__container">
